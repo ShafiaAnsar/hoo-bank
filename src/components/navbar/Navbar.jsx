@@ -1,11 +1,10 @@
 import React from 'react'
-import '/Navbar.css'
+import './Navbar.css'
+import {close ,logo,menu} from '../../assets'
 function Navbar() {
   return (
     <div>
-      <strong>Navbar
-        
-      </strong>
+      <img src={logo} alt="HooBank" />
     </div>
   )
 }
