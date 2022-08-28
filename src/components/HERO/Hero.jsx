@@ -4,8 +4,10 @@ import PercentIcon from '@mui/icons-material/Percent';
 import {robot } from '../../assets'
 const Hero = () => {
   return (
-    <section className='home'> 
-    <div className='home_right'>
+    <section> 
+    <div className="home">
+      <div className='home_content'>
+      <div className='home_right'>
       <div className="home_discount">
         <div className="home_discount-icon">
         <PercentIcon/>
@@ -27,6 +29,10 @@ const Hero = () => {
       </div>
 
     </div>
+      </div>
+    
+    </div>
+    
     </section>
   )
 }
