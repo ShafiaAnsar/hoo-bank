@@ -43,8 +43,7 @@
     line-height: 140%;
     letter-spacing: 0.01em;
     background: linear-gradient(to right,
-  white, skyblue,#00040F);
-        -webkit-text-fill-color: transparent;
+  white, skyblue,#00040F);-webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     
 
