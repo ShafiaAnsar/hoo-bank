@@ -3,10 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    top: 30px;
     background-color:  #00040F;
     position:sticky;
     color: whitesmoke;
+    margin: 1rem;
 }
 .navbar_logo>img{
     width:6rem;
@@ -28,7 +28,6 @@
     cursor: pointer;
     margin-right: 10px;
     padding: 2px;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
