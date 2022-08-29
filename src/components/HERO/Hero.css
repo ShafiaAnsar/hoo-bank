@@ -26,11 +26,8 @@
     font-size: 15px;
 }
 .home_discount-icon{
-    width: 5px;
-    height: 5px;
-    margin-left: 5px;
-    margin-bottom: 20px;
-    color: whitesmoke;
+    margin-left: 0.2rem;
+
 }
 .home_text{
     width: 670px;

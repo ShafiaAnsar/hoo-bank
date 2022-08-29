@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
-import PercentIcon from '@mui/icons-material/Percent';
-import {robot } from '../../assets'
+import {discount, robot } from '../../assets'
+
 const Hero = () => {
   return (
     <section> 
@@ -10,7 +10,7 @@ const Hero = () => {
       <div className='home_right'>
       <div className="home_discount">
         <div className="home_discount-icon">
-        <PercentIcon/>
+        <img src={discount} alt="" />
         </div>
       <h6>20% DISCOUNT FOR 1 MONTH ACCOUNT</h6>
       </div>

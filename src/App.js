@@ -2,7 +2,8 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Stats from './components/Stats/Stats'
 import Hero from  './components/Hero/Hero'
-import BussinesSection from './BussinesSection/BussinesSection';
+import BussinesSection from './components/BussinesSection/BussinesSection';
+import Billing from './components/Billing/Billing';
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,7 @@ function App() {
       <Hero/>
       <Stats/>
       <BussinesSection/>
-    
+      <Billing/>
 
 
     </div>

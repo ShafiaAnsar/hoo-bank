@@ -1,0 +1,26 @@
+
+.billing-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+.billing-left>img{
+    width: 530px;
+    height: 455px;
+    margin: 2rem;
+}
+.billing-rigt_text>h2{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 150%;
+    color: white;
+}
+.billing-rigt_text>p{
+    font-size: 20px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+.billing-rigt_icon>img{
+    margin: 2rem;
+}
