@@ -9,6 +9,7 @@
     border-radius: 20px;
 }
 .cta_text{
+    margin: 3rem;
     padding: 2rem;
 }
 .cta_text>h1{
@@ -22,7 +23,7 @@
     opacity: 0.7;
 }
 .cta_button{
-    margin-right: 2rem;
+    margin-right: 5rem;
 }
 .cta_button>button{
     width: 170px;
