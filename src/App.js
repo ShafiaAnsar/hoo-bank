@@ -6,6 +6,7 @@ import BussinesSection from './components/BussinesSection/BussinesSection';
 import Billing from './components/Billing/Billing';
 import CardDeal from './components/card/CardDeal';
 import Testimonials from './components/testimonials/Testimonials';
+import CTA from './components/CTA/CTA';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Billing/>
       <CardDeal/>
       <Testimonials/>
+      <CTA/>
 
 
     </div>
