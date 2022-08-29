@@ -4,6 +4,7 @@ import Img1 from '../../assets/icon.svg'
 import person01 from '../../assets/people01.png'
 import person02 from '../../assets/people02.png'
 import person03 from '../../assets/people03.png'
+import {coinbase,airbnb,dropbox,binance} from '../../assets'
 const Testimonials = () => {
   return (
     <div className='testimonials'>
@@ -51,7 +52,12 @@ const Testimonials = () => {
             </div>
      
         </div>
-      
+      <div className="testimonials_sponsers">
+        <img src={coinbase} alt="coinbase" />
+        <img src={airbnb} alt="airbnb" />
+        <img src={binance} alt="binance" />
+        <img src={dropbox} alt="dropbox" />
+      </div>
     </div>
   )
 }
