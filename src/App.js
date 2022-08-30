@@ -11,15 +11,15 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <div className="App">
-     <Navbar/>
+     {/* <Navbar/> */}
       <Hero/>
-      <Stats/>
-      <BussinesSection/>
+      {/* <Stats/> */}
+      {/* <BussinesSection/>
       <Billing/>
       <CardDeal/>
       <Testimonials/>
       <CTA/>
-      <Footer/>
+      <Footer/> */}
 
 
     </div>

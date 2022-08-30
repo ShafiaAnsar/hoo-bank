@@ -26,6 +26,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
-
+}
+@media screen and(max-width:990px) {
+    .Stats_content{
+    display:grid;
+  justify-content: space-around;
+    }
 }
