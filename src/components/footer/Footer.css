@@ -1,0 +1,32 @@
+.footer{
+    background-color: aqua;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 3rem;
+}
+.footer-logo{
+    margin-top: 3rem;
+    background-color: rebeccapurple;
+}
+.logo_text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer_socials-copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+}
+.copyright{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+}
