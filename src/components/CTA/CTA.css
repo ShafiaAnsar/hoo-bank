@@ -29,10 +29,10 @@
     width: 170px;
     height: 70px;
     border: none;
-background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
-border-radius: 10px;
-color: #fff;
-font-size: 18px;
-font-weight: 300;
-letter-spacing: 0.02rem;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.02rem;
 }
