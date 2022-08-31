@@ -20,8 +20,33 @@
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0.01em;
-color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 .billing-rigt_icon>img{
     margin: 2rem;
+}
+@media screen and (max-width:1024px) {
+    .billing-content{
+       flex-direction: column;
+       align-items: center;
+    }
+}
+@media screen and (max-width:660px){
+    .billing-left>img{
+        width: 430px;
+        height: 355px;
+        margin: 2rem;
+    }
+    .billing-rigt_text> h2{
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 120%;
+    }
+    .billing-rigt_text >p{
+        font-size: 18px;
+        font-weight: 300;
+    }
+  .billing-rigt_icon>img{
+        margin: 1rem;
+    }
 }
