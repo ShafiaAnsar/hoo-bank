@@ -16,20 +16,18 @@ function Navbar() {
           <li>Clients</li>
         </ul>
       </div>
-  <div className="navbar_hidden nav-flex">
-    <img src={toggle
-          ? <close color="#fff" size={27} onClick={() => setToggle(false)} />
-          : <menu color="#fff" size={27} onClick={() => setToggle(true)} />}
-    />
-    <div className={`${toggle ?  "nav-flex" : "navbar_hidden"}`} id="menu" >
-    <ul>
+      <div className="navbar_menu">   
+      {toggle ? <img src={close} className="navbar_menu-close" onClick ={() =>setToggle(false)}/> : <img src={menu}  onClick={()=> setToggle(true)}/>} 
+      {toggle && <div className="navbar_menu-links">
+      <ul>
           <li>Home</li>
           <li>Features</li>
           <li>Product</li>
           <li>Clients</li>
         </ul>
-    </div>
-  </div>
+      </div>
+       }
+      </div>
     </div>
   )
 }
