@@ -94,3 +94,38 @@ height: 48px;
     margin-left: 1.5rem;
     padding: 2rem;
 }
+@media screen and (max-width:1024px){
+    .testimonials_text{
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .testimonials_text>h2{
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 140%;
+    }
+    .testimonials_text>p{
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .testimonials_containers{
+        flex-direction: column;
+    }
+    .testimonials_container>p{
+        font-weight: 300;
+        font-size: 18px;
+        letter-spacing: 0.03rem;
+    }
+    .testimonials_container>img{
+        width: 40.6px;
+        height: 24.6px;
+    }
+    .container_person>img{
+        width: 45px;
+        height: 45px;
+    }
+    .testimonials_sponsers{
+        display: none
+    }
+}

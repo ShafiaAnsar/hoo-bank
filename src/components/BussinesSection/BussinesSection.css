@@ -85,7 +85,6 @@
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.7);
 
-
 }
 @media screen and (max-width:1024px) {
     .bsection_content{
@@ -101,6 +100,14 @@
     .bsection_content-left>p{
         font-size: 16px;
         line-height: 140%;
+    }
+    .reward_text{
+        height: 80px;
+        margin-top: -20px;
+    }
+    .reward_text>p{
+        font-weight: 300;
+        font-size: 14px;
     }
     .left-button>button{
         width: 140px;
