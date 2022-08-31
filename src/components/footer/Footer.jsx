@@ -18,6 +18,8 @@ const Footer = () => {
                     <p>A new way to make the payments <br/> easy, reliable and secure.</p>
                 </div>
             </div>
+            <div className="footer_content-links">
+                
             <div className="footer_content">
                 <div className="content_text">
                     <h5>Usefull Links</h5>
@@ -46,6 +48,7 @@ const Footer = () => {
                     <p>Our Partner</p>
                 </div>
 
+            </div>
             </div>
         </div>
         <div className="footer_socials-copyright">

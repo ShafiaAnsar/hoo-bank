@@ -19,7 +19,7 @@ function App() {
       <CardDeal/>
      <Testimonials/>
        <CTA/>
-      {/*<Footer/> */}
+      <Footer/>
 
 
     </div>
