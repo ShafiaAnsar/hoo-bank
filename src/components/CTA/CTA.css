@@ -56,3 +56,11 @@
         height: 60px;
     }
 }
+@media screen and (max-width:660px){
+    .cta_text>h1{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 140%;
+    }
+}
+
