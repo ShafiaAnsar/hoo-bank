@@ -18,8 +18,8 @@ function App() {
       <Billing/>
       <CardDeal/>
      <Testimonials/>
-       {/*<CTA/>
-      <Footer/> */}
+       <CTA/>
+      {/*<Footer/> */}
 
 
     </div>
