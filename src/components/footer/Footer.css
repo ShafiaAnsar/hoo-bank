@@ -10,6 +10,9 @@
 .footer-logo{
     margin: 3rem;
 }
+.footer_content-links{
+    display: flex;
+}
 .logo_text{
     text-align: center;
     font-weight: 400;
