@@ -8,7 +8,7 @@ const CardDeal = () => {
         {/* content */}
         <div className="card-left">
           {/* left */}
-          <h1>Find a better card deal <br/> in few easy steps.</h1>
+          <h2>Find a better card deal <br/> in few easy steps.</h2>
           <p>Arcu tortor, purus in mattis at sed integer faucibus. <br/>Aliquet quis aliquet eget mauris tortor <br/> Aliquet ultrices ac, ametau.</p>
           <div className="card-left_button">
             <button>Get Started</button>

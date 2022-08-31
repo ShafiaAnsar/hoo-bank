@@ -16,8 +16,8 @@ function App() {
       <Stats/>
       <BussinesSection/>
       <Billing/>
-      {/*<CardDeal/>
-      <Testimonials/>
+      <CardDeal/>
+      {/*<Testimonials/>
       <CTA/>
       <Footer/> */}
 
