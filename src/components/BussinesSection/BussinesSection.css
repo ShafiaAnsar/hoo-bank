@@ -29,7 +29,6 @@
 .left-button>button{
     width: 170px;
     height: 64px;
-    left: 135px;
     background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
     border-radius: 10px;
     font-weight: 500;
@@ -47,8 +46,8 @@
     align-items: flex-start;
     margin-top: 2rem;
     background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
-box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
-border-radius: 20px;
+    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+    border-radius: 20px;
 }
 .rewards_heading{
     display: flex;
@@ -87,4 +86,29 @@ border-radius: 20px;
     color: rgba(255, 255, 255, 0.7);
 
 
+}
+@media screen and (max-width:1024px) {
+    .bsection_content{
+       flex-direction: column;
+       align-items: center;
+    }
+}
+@media screen and (max-width:660px){
+    .bsection_content-left>h2{
+        font-size: 35px;
+        line-height: 120%;
+    }
+    .bsection_content-left>p{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .left-button>button{
+        width: 140px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .bsection_content-right{
+        margin-left: 4rem;
+        margin-top: -10px;
+    }
 }

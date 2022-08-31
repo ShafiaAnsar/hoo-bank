@@ -14,8 +14,8 @@ function App() {
      {/* <Navbar/> */}
       <Hero/>
       <Stats/>
-      {/* <BussinesSection/>
-      <Billing/>
+      <BussinesSection/>
+      {/*<Billing/>
       <CardDeal/>
       <Testimonials/>
       <CTA/>
